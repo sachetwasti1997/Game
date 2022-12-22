@@ -1,0 +1,93 @@
+.dice{
+    font-size: 10em;
+    margin: 0.25em;
+    color: green;
+}
+
+.shaking {
+    animation-name: wobble;
+    animation-duration: 1500ms;
+}
+
+/* Setting Animation effect to the
+dice using css keyframe */
+@keyframes wobble {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    5% {
+        transform: translate3d(-25%, 0, 0)
+        rotate3d(0, 0, 1, -5deg);
+    }
+    10% {
+        transform: translate3d(20%, 0, 0)
+        rotate3d(0, 0, 1, 3deg);
+    }
+    15% {
+        transform: translate3d(-15%, 0, 0)
+        rotate3d(0, 0, 1, -3deg);
+    }
+    20% {
+        transform: translate3d(10%, 0, 0)
+        rotate3d(0, 0, 1, 2deg);
+    }
+    25% {
+        transform: translate3d(-5%, 0, 0)
+        rotate3d(0, 0, 1, -1deg);
+    }
+    30% {
+        transform: translate3d(-25%, 0, 0)
+        rotate3d(0, 0, 1, -5deg);
+    }
+    35% {
+        transform: translate3d(20%, 0, 0)
+        rotate3d(0, 0, 1, 3deg);
+    }
+    40% {
+        transform: translate3d(-15%, 0, 0)
+        rotate3d(0, 0, 1, -3deg);
+    }
+    45% {
+        transform: translate3d(10%, 0, 0)
+        rotate3d(0, 0, 1, 2deg);
+    }
+    50% {
+        transform: translate3d(-25%, 0, 0)
+        rotate3d(0, 0, 1, -5deg);
+    }
+    55% {
+        transform: translate3d(20%, 0, 0)
+        rotate3d(0, 0, 1, 3deg);
+    }
+    60% {
+        transform: translate3d(-15%, 0, 0)
+        rotate3d(0, 0, 1, -3deg);
+    }
+    65% {
+        transform: translate3d(10%, 0, 0)
+        rotate3d(0, 0, 1, 2deg);
+    }
+    70% {
+        transform: translate3d(-5%, 0, 0)
+        rotate3d(0, 0, 1, -1deg);
+    }
+    75% {
+        transform: translate3d(-25%, 0, 0)
+        rotate3d(0, 0, 1, -5deg);
+    }
+    80% {
+        transform: translate3d(20%, 0, 0)
+        rotate3d(0, 0, 1, 3deg);
+    }
+    85% {
+        transform: translate3d(-15%, 0, 0)
+        rotate3d(0, 0, 1, -3deg);
+    }
+    90% {
+        transform: translate3d(10%, 0, 0)
+        rotate3d(0, 0, 1, 2deg);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
